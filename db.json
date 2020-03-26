@@ -1,0 +1,84 @@
+{
+    "utilisateurs": [
+        {
+            "prenom": "Sarah",
+            "nomFamille": "Morency-Lemieux",
+            "codePermanent": "MORS22579701",
+            "niveau": 1,
+            "courriel": "sarah.morency-lemieux@uqtr.ca",
+            "type": "etudiant"
+        },
+        {
+            "prenom": "Étienne",
+            "nomFamille": "Beaulac",
+            "codePermanent": "BEAE09049707",
+            "niveau": 1,
+            "courriel": "etienne.beaulac@uqtr.ca",
+            "type": "etudiant"
+        },
+        {
+            "prenom": "Administrateur",
+            "nomFamille": "principal",
+            "codePermanent": "admin",
+            "type": "admin"
+        }
+    ],
+    "activites": [
+        {
+            "id": 1,
+            "nom": "Marche",
+            "dateDebut": "2020-06-15T21:00:00.000Z",
+            "dateFin": "2020-06-15T22:00:00.000Z",
+            "lieu": "Départ aux Cubes",
+            "type": "Extérieure",
+            "nbPlaces": 40,
+            "niveauMinimal": 1,
+            "description": "Marche dans le quartier"
+        },
+        {
+            "id": 2,
+            "nom": "Match d'improvisation",
+            "dateDebut": "2020-06-25T22:00:00.000Z",
+            "dateFin": "2020-06-26T01:00:00.000Z",
+            "lieu": "Ringuet 1003",
+            "type": "Intérieure",
+            "nbPlaces": 16,
+            "niveauMinimal": 2,
+            "description": "Match d'improvisation entre étudiants"
+        },
+        {
+            "id": 3,
+            "nom": "Souper",
+            "dateDebut": "2020-06-26T23:00:00.000Z",
+            "dateFin": "2020-06-27T01:00:00.000Z",
+            "lieu": "Casa Grecque",
+            "type": "Intérieure",
+            "nbPlaces": 20,
+            "niveauMinimal": 1,
+            "description": "Souper de discussion"
+        },
+        {
+            "id": 4,
+            "nom": "Glissade",
+            "dateDebut": "2020-07-15T12:30:00.000Z",
+            "dateFin": "2020-07-15T21:00:00.000Z",
+            "lieu": "Vallée du Parc",
+            "type": "Extérieure",
+            "nbPlaces": 50,
+            "niveauMinimal": 1,
+            "description": "Glissage à Vallée du Parc"
+        }
+    ],
+    "inscriptions": [
+        {
+            "idActivite": 1,
+            "codePermanentEtudiant": "MORS22579701",
+            "dateInscription": "2020-03-26T20:47:28.765Z"
+        },
+        {
+            "idActivite": 2,
+            "codePermanentEtudiant": "MORS22579701",
+            "dateInscription": "2020-03-26T20:47:28.765Z"
+        }
+    ]
+}
